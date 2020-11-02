@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Administrator\Documents\OpenGL\projects\InClass03_2016142037\01_HelloWindow\src\</FILEPATH>
+      <FILENAME>Circle.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6281</DEFECTCODE>
+    <DESCRIPTION>연산 순서가 잘못되었습니다.  관계형 연산자는 비트 연산자보다 우선 순위가 높습니다.</DESCRIPTION>
+    <FUNCTION>Circle::findIntersectPoints</FUNCTION>
+    <DECORATED>?findIntersectPoints@Circle@@QAE?AV?$vector@U?$vec@$01M$0A@@glm@@V?$allocator@U?$vec@$01M$0A@@glm@@@std@@@std@@ABU?$vec@$01M$0A@@glm@@0@Z</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Administrator\Documents\OpenGL\projects\InClass03_2016142037\01_HelloWindow\src\</FILEPATH>
+      <FILENAME>Circle.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6281</DEFECTCODE>
+    <DESCRIPTION>연산 순서가 잘못되었습니다.  관계형 연산자는 비트 연산자보다 우선 순위가 높습니다.</DESCRIPTION>
+    <FUNCTION>Circle::findIntersectPoints</FUNCTION>
+    <DECORATED>?findIntersectPoints@Circle@@QAE?AV?$vector@U?$vec@$01M$0A@@glm@@V?$allocator@U?$vec@$01M$0A@@glm@@@std@@@std@@ABU?$vec@$01M$0A@@glm@@0@Z</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

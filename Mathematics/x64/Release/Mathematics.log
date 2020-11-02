@@ -1,0 +1,5 @@
+﻿  Circle.cpp
+C:\Users\Administrator\Documents\OpenGL\projects\InClass04_2016142037\Mathematics\src\vectors\Vector2.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'glm/vec2.hpp': No such file or directory
+  main.cpp
+  Mathf.cpp
+C:\Users\Administrator\Documents\OpenGL\projects\InClass04_2016142037\Mathematics\src\Mathf.cpp(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'glm/glm.hpp': No such file or directory

@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\engine">
+      <UniqueIdentifier>{67bc0042-1235-4766-b605-86c6d32ec596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\engine\utilities">
+      <UniqueIdentifier>{816c5891-6931-42a7-a03b-d5534ca8a0a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\engine\core">
+      <UniqueIdentifier>{3ead9d34-0632-424c-acc2-a984ae85d677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\engine\utilities\exceptions">
+      <UniqueIdentifier>{6bc6cc40-ea8f-45da-9fb9-e82b7c0884b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\engine\rendering">
+      <UniqueIdentifier>{206c2f49-321f-43db-8cda-25ec6f0da04d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\core">
+      <UniqueIdentifier>{9f5e153b-eaa1-4cff-ac7b-92c3676b5669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\rendering">
+      <UniqueIdentifier>{f16dd4cf-26b7-4aba-918f-e671d02f0d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\rendering\Light">
+      <UniqueIdentifier>{90bfe0ab-bfad-40b0-92ce-1861818ee73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\utilities">
+      <UniqueIdentifier>{54ac0214-9283-4850-b13e-3024e161f6f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Window.cpp">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\World.cpp">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GL.cpp">
+      <Filter>소스 파일\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics.cpp">
+      <Filter>소스 파일\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Shader.cpp">
+      <Filter>소스 파일\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Material.cpp">
+      <Filter>소스 파일\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Mesh.cpp">
+      <Filter>소스 파일\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>소스 파일\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>소스 파일\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Time.cpp">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Transform.cpp">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Light.cpp">
+      <Filter>소스 파일\rendering\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Launcher.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unity_build.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>소스 파일\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>소스 파일\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object.cpp">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Actor.cpp">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Component.cpp">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AArcBall.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>소스 파일\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Text.cpp">
+      <Filter>소스 파일\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Physics.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameScene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AObstacle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\APlayer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GL.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LogMacros.h">
+      <Filter>헤더 파일\engine\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\World.h">
+      <Filter>헤더 파일\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window.h">
+      <Filter>헤더 파일\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Application.h">
+      <Filter>헤더 파일\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Shader.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShaderUtils.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Material.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.h">
+      <Filter>헤더 파일\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Time.h">
+      <Filter>헤더 파일\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input.h">
+      <Filter>헤더 파일\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CoreTypes.h">
+      <Filter>헤더 파일\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CoreMinimal.h">
+      <Filter>헤더 파일\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mesh.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Mathematics.h">
+      <Filter>헤더 파일\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>헤더 파일\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MeshData.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Resources.h">
+      <Filter>헤더 파일\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image.h">
+      <Filter>헤더 파일\engine\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object.h">
+      <Filter>헤더 파일\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Actor.h">
+      <Filter>헤더 파일\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Component.h">
+      <Filter>헤더 파일\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AArcBall.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene.h">
+      <Filter>헤더 파일\engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="LightTypes.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Type.h">
+      <Filter>헤더 파일\engine\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderTexture.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Texture.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Light.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>헤더 파일\engine\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StringTypes.h">
+      <Filter>헤더 파일\engine\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Animator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Animation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Physics.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameScene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AObstacle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="src\APlayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\built-in\Standard.frag">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="resources\shaders\built-in\Standard.vert">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="resources\shaders\built-in\Unlit.frag">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="resources\shaders\built-in\Unlit.vert">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>

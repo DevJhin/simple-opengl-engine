@@ -1,0 +1,7 @@
+﻿  Circle.cpp
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Mathematics\src\vectors\Vector2.h(2,10): fatal error C1083: Cannot open include file: 'glm/vec2.hpp': No such file or directory
+  Mathf.cpp
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Mathematics\src\Mathf.cpp(2,10): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+  unity_build_math.cpp
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Mathematics\src\vectors\Vector2.h(2,10): fatal error C1083: Cannot open include file: 'glm/vec2.hpp': No such file or directory
+  Generating Code...

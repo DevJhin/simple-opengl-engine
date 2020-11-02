@@ -1,0 +1,25 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (01_HelloWindow.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  unity_build.cpp
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Input.cpp(52,18): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Input.cpp(53,18): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Model.h(216,9): warning C4002: too many arguments for function-like macro invocation 'LOG_ERROR'
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Model.h(218,10): warning C4002: too many arguments for function-like macro invocation 'LOG_ERROR'
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\World.cpp(66,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Graphics.cpp(151,53): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Graphics.cpp(152,57): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Graphics.cpp(163,52): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Graphics.cpp(164,55): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Animation.h(48,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Animation.h(65,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Animation.h(90,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Engine\src\Actor.cpp(15,15): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Mathematics\src\Mathf.cpp(63,17): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  01_HelloWindow.vcxproj -> C:\Users\Administrator\Documents\OpenGL\projects\HW2_2016142037\Debug\Engine.exe
